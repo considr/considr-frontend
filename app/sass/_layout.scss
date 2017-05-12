@@ -1,0 +1,17 @@
+/* Layouts */
+
+//Default susy Layout
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+    use-custom: (
+      background-image: true,
+      background-options: false,
+      box-sizing: true,
+      clearfix: true,
+      rem: true,
+    )
+);

@@ -1,0 +1,53 @@
+#home{
+
+	.globe-background{		
+		background:url("../img/globe-dots.png");
+		background-color:$mustard;
+		background-repeat:no-repeat;
+		background-position:center;
+		height:400px;
+		position:relative;
+
+		&::before{
+			@include center-all-absolute();
+			content:"";
+			background:url("../img/location-marker.png");
+			z-index:2;			
+			width:145px;
+			height:193px;
+		}
+
+		.location-form
+		{
+			@include span(12);
+			position: absolute;
+			max-width: 800px;
+			height: $header-height;
+		    margin: auto;
+		    left: 0;
+		    right: 0;
+		    bottom: -40px;
+
+		    .location-input{
+		    	@include span(10);
+		    	@include shadow();
+		    	height: 100%;
+		    	padding: 20px;
+		    	box-sizing: border-box;
+		    	border: none;
+		    	outline: none;
+		    }
+
+		    .submit-btn
+		    {
+		    	@include span(2);
+		    	height: 100%;
+		    	background:$dark-blue;
+		    	outline: none;
+		    	border: none;
+		    	color:white;
+		    }
+		}
+
+	}
+}

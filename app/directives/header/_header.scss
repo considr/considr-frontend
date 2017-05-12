@@ -1,0 +1,14 @@
+header
+{
+	 background-color: $mustard;
+	 height: $header-height;
+	 line-height:$header-height;
+	 display: flex;
+	 align-items: center;
+	 padding: 20px;
+	 box-sizing: border-box;
+
+	 .logo{
+	 	height:30px;
+	 }
+}

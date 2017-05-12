@@ -1,0 +1,40 @@
+
+/*----------  Place Holder Colors  ----------*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    $light-grey;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    $light-grey;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    $light-grey;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:   $light-grey;
+}
+
+
+/*----------  Common App Styles  ----------*/
+html
+{
+	min-height:100%;
+	position:relative;
+}
+
+header,main,footer
+{
+	   //Default
+		@include span(12);
+}
+main
+{
+	padding:0;
+}
+
+h1
+{
+  color:$dark-blue;
+  font-size:1.8rem;
+}

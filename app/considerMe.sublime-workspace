@@ -1,0 +1,1179 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"comm",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"com",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"B",
+				"BleManager"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"is",
+				"isWheemoConnected"
+			],
+			[
+				"A",
+				"AppState"
+			],
+			[
+				"not",
+				"notification"
+			],
+			[
+				"T",
+				"Tts.speak('New"
+			],
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"item",
+				"itemName"
+			],
+			[
+				"e",
+				"enabledActivities"
+			],
+			[
+				"Comm",
+				"CommonStyle〔variable〕"
+			],
+			[
+				"Ac",
+				"ActivityListItem"
+			],
+			[
+				"Whee",
+				"WheemoActivities"
+			],
+			[
+				"W",
+				"WheemoState"
+			],
+			[
+				"reac",
+				"react-native-android-wheemo-notification"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"Na",
+				"NativeModules"
+			],
+			[
+				"font",
+				"font-awesome"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"conta",
+				"contact-element"
+			],
+			[
+				"fon",
+				"font-kerning"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"da",
+				"dark-grey"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bann",
+				"banner-overlay"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"ro",
+				"Roboto-Regular"
+			],
+			[
+				"Ro",
+				"Roboto-Regular"
+			],
+			[
+				"footer",
+				"footer-gallery"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"U",
+				"uppercase"
+			],
+			[
+				"co",
+				"contain"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"index",
+				"index.content"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"Commo",
+				"CommonStyle"
+			],
+			[
+				"Bl",
+				"Bluetooth"
+			],
+			[
+				"Con",
+				"Connected"
+			],
+			[
+				"Co",
+				"Connected"
+			],
+			[
+				"D",
+				"Device"
+			],
+			[
+				"C",
+				"Component"
+			],
+			[
+				"Conne",
+				"Connected"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"dev",
+				"device"
+			],
+			[
+				"Dev",
+				"DeviceList"
+			],
+			[
+				"devi",
+				"devices〔variable〕"
+			],
+			[
+				"De",
+				"Devices"
+			],
+			[
+				"Blu",
+				"BluetoothEnabled"
+			],
+			[
+				"fl",
+				"flexDirection"
+			],
+			[
+				"flex",
+				"flexDirection〔variable〕"
+			],
+			[
+				"un",
+				"unConnectedDevices"
+			],
+			[
+				"d",
+				"discoveringConnected"
+			],
+			[
+				"Sca",
+				"Scanning"
+			],
+			[
+				"Un",
+				"UnConnectedDevice"
+			],
+			[
+				"conn",
+				"connected"
+			],
+			[
+				"unc",
+				"unconnected"
+			],
+			[
+				"get",
+				"getConnectedDevices"
+			],
+			[
+				"on",
+				"onPress"
+			],
+			[
+				"bl",
+				"bluetooth"
+			],
+			[
+				"F",
+				"Found"
+			],
+			[
+				"no",
+				"noResult"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"Com",
+				"Component"
+			],
+			[
+				"blue",
+				"bluetoothEnabled"
+			],
+			[
+				"Sc",
+				"Scanning"
+			],
+			[
+				"ex",
+				"extends"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"S",
+				"Style"
+			],
+			[
+				"ena",
+				"enableBluetooth"
+			],
+			[
+				"req",
+				"require〔function〕"
+			],
+			[
+				"Ble",
+				"BleManager"
+			],
+			[
+				"obs",
+				"observer"
+			],
+			[
+				"imp",
+				"import〔keyword〕"
+			],
+			[
+				"coun",
+				"counterStore"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ap",
+				"aphrie-face"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-origin"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"ac",
+				"acrylic-string"
+			],
+			[
+				"mic",
+				"mic-string"
+			],
+			[
+				"trac",
+				"trackPadLine〔variable〕"
+			],
+			[
+				"rg",
+				"rgbLedLine"
+			],
+			[
+				"om",
+				"omniMicLine"
+			],
+			[
+				"mi",
+				"mic-hotspot"
+			],
+			[
+				"glow",
+				"glowDiffuserLine〔variable〕"
+			],
+			[
+				"hot",
+				"hotspot-center"
+			],
+			[
+				"trackpad",
+				"trackpad-hotspot"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"city",
+				"cityName"
+			],
+			[
+				"htt",
+				"http-server"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bad",
+				"baddel-darker-grey"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sta",
+				"startVR"
+			],
+			[
+				"bade",
+				"baddel-lighter-grey"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"baddel",
+				"baddel-dark-green"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"stat",
+				"station-details"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"me",
+				"messageString"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"pos",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/home/_home.scss",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 1134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/index.scss",
+			"settings":
+			{
+				"buffer_size": 408,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/home/home.html",
+			"settings":
+			{
+				"buffer_size": 214,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"consol",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/work/work/considerMe/app",
+		"/D/work/work/considerMe/app/core",
+		"/D/work/work/considerMe/app/sass",
+		"/D/work/work/considerMe/app/views",
+		"/D/work/work/considerMe/app/views/home"
+	],
+	"file_history":
+	[
+		"/D/work/work/considerMe/app/config.js",
+		"/D/work/work/considerMe/app/core/index.scss",
+		"/D/work/work/considerMe/app/core/vendor.js",
+		"/D/work/work/considerMe/app/sass/_sections.scss",
+		"/D/work/work/considerMe/app/directives/header/_header.scss",
+		"/D/work/work/considerMe/app/directives/footer/_footer.scss",
+		"/D/work/work/considerMe/app/views/home/home.html",
+		"/D/work/work/considerMe/webpack.config.js",
+		"/D/work/work/considerMe/package.json",
+		"/D/work/work/considerMe/app/directives/directives.js",
+		"/D/work/work/considerMe/app/sass/_app.scss",
+		"/D/work/work/considerMe/app/directives/footer/footer.html",
+		"/D/work/work/considerMe/app/directives/header/header.html",
+		"/D/work/work/considerMe/app/sass/_libs.scss",
+		"/D/work/work/considerMe/app/sass/_variables.scss",
+		"/C/Users/Prollygeek/Desktop/netaq/src/sass/includes/_layout.scss",
+		"/C/Users/Prollygeek/Desktop/netaq/src/sass/sections/_about.scss",
+		"/D/work/work/considrMe/considr-frontend/src/styles/styles.scss",
+		"/D/work/work/considrMe/considr-frontend/src/app/header/header.component.scss",
+		"/D/work/work/considerMe/app/index.html",
+		"/D/work/work/considerMe/app/views/main/main.html",
+		"/D/work/work/considerMe/app/index.js",
+		"/D/Youxel/KAUST/kaust/www/index.html",
+		"/D/Youxel/KAUST/kaust/www/js/config.js",
+		"/D/work/work/suitpad/suitpad-submission/suitepad-twitter-wall/js/app.js",
+		"/D/Youxel/KAUST/kaust/www/directives/main-header/main-header.js",
+		"/D/Youxel/KAUST/kaust/www/views/main/main.html",
+		"/D/Youxel/KAUST/kaust/www/views/main/main.js",
+		"/D/work/work/suitpad/suitpad-submission/suitepad-twitter-wall/views/main/main.html",
+		"/D/Youxel/KAUST/kaust/www/js/app.js",
+		"/D/work/work/considrMe/considr-frontend/package.json",
+		"/D/work/work/considerMe/index.html",
+		"/D/work/work/Baddel/Frontend/BikeApp/config.xml",
+		"/C/Users/Prollygeek/Desktop/netaq/src/index.html",
+		"/D/work/work/considrMe/considr-frontend/src/app/app.routes.ts",
+		"/D/work/work/considrMe/considr-frontend/src/app/+landing/landing.module.ts",
+		"/C/Users/Prollygeek/Desktop/considr/selection.json",
+		"/D/work/work/considrMe/considr-frontend/src/app/+landing/home/home.component.html",
+		"/D/work/work/considrMe/considr-frontend/src/app/no-content/no-content.component.html",
+		"/D/work/work/considrMe/considr-frontend/src/app/no-content/no-content.component.ts",
+		"/D/work/work/considrMe/considr-frontend/src/app/no-content/index.ts",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-kiosk/android/KioskPlugin.java",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-kiosk/android/KioskActivity.java",
+		"/D/work/work/Baddel/Frontend/BikeApp/platforms/android/build.gradle",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-kiosk/plugin.xml",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-kiosk/android/customViewGroup.java",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-kiosk/android/HomeActivity.java",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-kiosk/android/customgroup.java",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-kiosk/android/CustomViewGroup.java",
+		"/D/work/work/Baddel/Frontend/BikeApp/platforms/android/AndroidManifest.xml",
+		"/D/work/work/Baddel/Frontend/BikeApp/plugins/cordova-plugin-android-status-bar-disabler/plugin.xml",
+		"/D/work/work/considrMe/front-end/src/app/app.module.ts",
+		"/D/work/work/Baddel/Frontend/BikeApp/platforms/android/settings.gradle",
+		"/D/work/work/Baddel/Frontend/BikeApp/platforms/android/project.properties",
+		"/D/work/work/Baddel/Frontend/BikeApp/platforms/android/src/com/ionicframework/bikeapp364911/MainActivity.java",
+		"/D/work/work/considrMe/front-end/src/main.browser.ts",
+		"/D/work/work/suitpad/suitpad-submission/suitepad-twitter-wall/index.html",
+		"/D/work/work/considrMe/front-end/src/app/app.routes.ts",
+		"/D/work/work/considrMe/front-end/src/styles/_variables.scss",
+		"/D/work/work/considrMe/front-end/src/app/app.service.ts",
+		"/D/work/work/considrMe/front-end/src/app/index.ts",
+		"/D/work/work/considrMe/front-end/src/app/app.resolver.ts",
+		"/D/work/work/Baddel/Frontend/User App/config.xml",
+		"/D/work/work/wheemo-app/wheemo/scenes/bluetooth/index.js",
+		"/D/work/work/wheemo-app/wheemo/scenes/home/activities/index.js",
+		"/D/work/work/wheemo-app/wheemo/scenes/home/index.js",
+		"/D/work/work/wheemo-app/wheemo/app/State.js",
+		"/D/Youxel/ProjectTremvo/views/projects/projects.html",
+		"/C/Users/Prollygeek/Desktop/content-single-product.php",
+		"/C/Users/Prollygeek/AppData/Local/Temp/fz3temp-2/content-single-product.php",
+		"/D/work/work/wheemo-app/wheemo/app/Controller.js",
+		"/D/work/work/wheemo-app/wheemo/components/bluetooth-btn/index.js",
+		"/D/work/work/wheemo-app/wheemo/api/ble-api.js",
+		"/D/work/work/Baddel/Frontend/BikeApp/ionic.project",
+		"/D/work/work/wheemo-ws/gesture/main.cpp",
+		"/C/Users/Prollygeek/Desktop/netaq/src/sass/includes/_base.scss",
+		"/C/Users/Prollygeek/Desktop/netaq/src/sass/includes/_mixins.scss",
+		"/D/work/work/considrMe/front-end/src/styles/styles.scss",
+		"/D/work/work/considrMe/front-end/src/styles/headings.css",
+		"/D/work/work/considrMe/front-end/config/webpack.common.js",
+		"/D/work/work/considrMe/front-end/firebase.json",
+		"/D/work/work/considrMe/front-end/webpack.config.js",
+		"/D/work/work/considrMe/front-end/src/index.html",
+		"/D/work/work/considrMe/front-end/src/app/app.component.css",
+		"/D/work/work/considrMe/angular2-webpack-starter/config/webpack.dev.js",
+		"/D/work/work/considrMe/angular2-webpack-starter/webpack.config.js",
+		"/D/work/work/considrMe/angular2-webpack-starter/package.json",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-wheemo-activities/android/src/main/java/com/wheemo/activities/WheemoActivitiesModule.java",
+		"/C/Users/Prollygeek/AppData/Local/Temp/Rar$DI55.984/home.js",
+		"/C/Users/Prollygeek/AppData/Local/Temp/Rar$DI60.984/home.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-speech-recognizer/src/index.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/android/src/main/java/it/innove/Peripheral.java",
+		"/D/work/work/Baddel/Frontend/BikeApp/www/js/controller.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/react-packager/src/Bundler/Bundle.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/rn-cli.config.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/README.md",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/react-packager/src/Server/index.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/transformer.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/defaults.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/packager.sh",
+		"/D/work/work/wheemo-app/wheemo/.idea/workspace.xml",
+		"/D/work/work/wheemo-app/wheemo/.idea/modules.xml",
+		"/D/work/work/wheemo-app/wheemo/.idea/misc.xml",
+		"/D/work/work/wheemo-app/wheemo/.idea/compiler.xml",
+		"/D/work/work/wheemo-app/wheemo/.idea/copyright/profiles_settings.xml",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/BleManager.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/android/src/main/java/it/innove/BleManager.java",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-bluetooth-serial/index.js",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/android/src/main/java/it/innove/BleManagerPackage.java",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-wheemo-notification/android/src/main/java/com/wheemo/notification/WheemoNotificationModule.java",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-wheemo-notification/android/src/main/java/com/wheemo/notification/WheemoNotificationListener.java",
+		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/credit-card/credit-dashboard/credit-dashboard.js",
+		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/credit-card/credit-dashboard/credit-dashboard.html",
+		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/paddel-v-1.js",
+		"/D/work/work/Baddel/Frontend/User App/platforms/android/res/values/strings.xml",
+		"/D/work/work/Baddel/Frontend/User App/platforms/android/AndroidManifest.xml",
+		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/verified/verified.js",
+		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/credit-card/credit-card.js",
+		"/D/work/work/Baddel/Frontend/User App/ionic.project",
+		"/D/work/work/Baddel/Frontend/User App/package.json",
+		"/D/work/work/Baddel/Frontend/User App/platforms/android/project.properties",
+		"/D/work/work/Baddel/Frontend/User App/platforms/android/android.json",
+		"/D/work/work/Baddel/Frontend/User App/platforms/android/CordovaLib/project.properties",
+		"/D/work/work/Baddel/Frontend/User App/platforms/android/CordovaLib/AndroidManifest.xml",
+		"/D/work/work/Baddel/Frontend/User App/platforms/android/res/xml/config.xml",
+		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-wheemo-notification/android/src/main/java/com/wheemo/notification/WheemoCallListener.java",
+		"/C/Users/Prollygeek/Desktop/Station0.32/Station0.32/assets/www/index.html",
+		"/C/Users/Prollygeek/Desktop/Main-BLE.cpp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"compile",
+			"chrome",
+			"onCharacteristicRead",
+			"CHARACTERISTIC_NOTIFICATION_CONFIG",
+			"sendEvent",
+			"BleManagerDidUpdateValueForCharacteristic\n\n",
+			"BleAPI",
+			"tripPirce",
+			"time",
+			"timePrice",
+			"timeprice",
+			"WheemoNotificationModule",
+			"sendEvent",
+			"jquery",
+			"Led",
+			"baud",
+			"MBED_CONF_PLATFORM_DEFAULT_SERIAL_BAUD_RATE",
+			"InitDef",
+			"GPIO_InitDef",
+			"GPIO_InitDef.GPIO",
+			"GPIO_InitDef",
+			"GPIO_InitDef.GPIO",
+			"RCC_AHB1PeriphClockCmd",
+			"GPIO_InitTypeDef",
+			"setTimeout",
+			"_isMounted",
+			"setState",
+			"NativeAppEventEmitter",
+			"isConnected",
+			"isWheemoConnected",
+			"NativeAppEventEmitter",
+			"Navigator",
+			"enabledActivitiesNames",
+			"full",
+			"fullWidth",
+			"WheemoController",
+			"active",
+			"allActivities",
+			"supp",
+			"React",
+			"WheemoState",
+			"props",
+			"PackageManager",
+			"viewId",
+			"WheemoNotificationListener",
+			"gyg-",
+			"marker",
+			"this.state.discovering.unconnected",
+			"this.state.discovering.connected",
+			"discovering",
+			"isDeviceConnected",
+			"getUnconnectedDevices",
+			"DeviceEventEmitter",
+			"angular",
+			"unConnectedDevices",
+			"connectedDevices",
+			"connectedDevices ",
+			"map",
+			"unConnectedDdevices",
+			"getDevices",
+			"component",
+			"Navigator",
+			"handleDiscoverPeripheral",
+			"setState",
+			"headerback",
+			"renderTab",
+			"grid",
+			"settings",
+			"tabLabel",
+			"renderTab",
+			"tabLabel",
+			"child",
+			"children",
+			"render",
+			"/",
+			"insertUser",
+			"baige",
+			"team",
+			"google",
+			"font",
+			"leftEye",
+			"rightEyeImage",
+			"left",
+			"coinAnimation",
+			"capturer",
+			"renderer.domElement",
+			"onFileSelect",
+			"uploadbox",
+			"$",
+			"from=\"15\" to=\"20\"",
+			"from=\"9.002\" to=\"16\"",
+			"r=\"9.002\"",
+			"team",
+			"footer",
+			"$proland_button_title",
+			"Noti",
+			"notify",
+			"WP_DEBUG_LOG",
+			"WP_DEBUG",
+			"../",
+			"6.203",
+			"$",
+			"glow-string",
+			"play",
+			"function (t){if(t&&\"number\"!=typeof t)throw new Error(\"Vivus [play]: invalid speed\");return this.speed=t||1,this.handle||this.drawer(),this}",
+			"hotspot-center",
+			"circle-hotspot",
+			".circle-hotspot",
+			"id",
+			"circle",
+			"cicle",
+			"id",
+			"<line fill=\"none\" stroke=\"#D1D3D4\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"296.461\" y1=\"60.118\" x2=\"232.31\" y2=\"60.118\">",
+			"<line fill=\"none\" stroke=\"#D1D3D4\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"296.461\" y1=\"60.118\" x2=\"232.31\" y2=\"60.118\"></line>",
+			"414.409,351.118 483.461,351.118 \n\n",
+			"414.409,351.118 483.461,351.118 \n	483.461,364.763 \n",
+			"anima",
+			"#main-navbar",
+			"feature",
+			"min-width",
+			"#first-product-popup",
+			".feature-note.left.bottom ",
+			".feature-note.left.bottom .indicator",
+			"$proland_logo_margin_top",
+			".navbar-brand",
+			".navbar .navbar-header .navbar-brand img",
+			"viv",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"this._isMounted",
+			"fullWidthCard",
+			"listActivities",
+			"AppState",
+			"this.state.discoveringUnconnected",
+			"this.state.discoveringConnected",
+			"unConnectedDevices",
+			"getUnconnectedDevices",
+			"\\",
+			"\\\naphrieFace",
+			"\naphrieFace",
+			"\n	leftEyeCanvas = document.getElementById(\"leftEye\");\n	leftEyeCanvas.width = 390;\n	leftEyeCanvas.height = 255;",
+			"right",
+			"leftEye",
+			"jQuery",
+			"from=\"10\" to=\"20\"",
+			"from=\"15\" to=\"20\"",
+			"r=\"15\"",
+			"../../",
+			"10",
+			"jQuery",
+			"fs-submit",
+			"show-map",
+			"#005003",
+			"#fff",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/home/_home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/_mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								796,
+								737
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "core/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/home/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "considerMe.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
