@@ -54,10 +54,7 @@
 		.next-representative-btn
 		{
 			@include round-btn(8px,$pink,white);
-			height: 35px;
-		    padding: 10px;
 		    float: right;
-		    padding: 10px;
 		}
 	}
 }
