@@ -52,20 +52,17 @@
 @mixin round-btn($radius,$backgroundColor,$color)
 {
 
-/* 	border-radius:$radius;
+	border-radius:$radius;
 	border:none;	
 	outline:none;
 	background-color:$backgroundColor;
 	color:$color;
 	display:table;
+	
 	span{
 	    display: table-cell;
 	    vertical-align: middle;
 	    font-weight: bold;
 	}
-	&:hover
-	{
-		background:$light-grey;
-		color:$dark-grey;
-	} */
+	
 }

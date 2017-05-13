@@ -8,16 +8,25 @@ $fade-dark-blue:          #394551;
 $sky-blue:                #29abe2;
 $light-grey:              #cccccc;
 $light-beige:             #bebaab;
-
+$pink:                    #ed1e79;
 /*=====  End of Colors  ======*/
 
 /*==================================
 =            Dimensions            =
 ==================================*/
 $header-height:              75px;
-
-
+$footer-height:             250px;
 /*=====  End of Dimensions  ======*/
+
+/*===================================
+=            BreakPoints            =
+===================================*/
+$phone: 0 420px;
+$tablet: 421px 1024px;
+$desktop: 1200px;
+$non-desktop: (max-width 1024px);
+/*=====  End of BreakPoints  ======*/
+
 
 
 

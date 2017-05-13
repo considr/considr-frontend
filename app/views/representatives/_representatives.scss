@@ -1,0 +1,64 @@
+#representative-profile
+{
+	
+
+	#profile-wrap
+	{
+		
+
+		background:$dark-blue;
+		text-align:center;
+
+		img
+		{
+			width:200px;
+			margin:20px;
+			border-radius:100%;
+			border:6px solid $mustard;
+		}
+
+		.representative-name
+		{
+			color:$mustard;
+			font-size:1.8rem;
+			margin:10px;
+		}
+
+		.representative-number
+		{
+			color:white;
+			font-size: 1.4rem;
+			margin: 10px;
+			margin-bottom: 30px;
+		}
+	}
+
+	#call-guide
+	{
+		
+		padding-top:30px;
+		padding-bottom:30px;
+
+		h2{
+			margin-top:20px;
+		}
+
+		.blue-span{
+			color:$sky-blue;
+		}
+
+		.pink-span{
+			color:$pink;
+		}
+
+		.next-representative-btn
+		{
+			@include round-btn(8px,$pink,white);
+			height: 35px;
+		    padding: 10px;
+		    float: right;
+		    padding: 10px;
+		}
+	}
+}
+

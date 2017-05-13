@@ -1,9 +1,11 @@
 footer
 {
+	@include center-padding(15%);	
+	max-height:$footer-height;
 	position:absolute;
 	bottom:0;
-	padding: 20px;
-	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background:$dark-blue;
 	text-align:center;
 

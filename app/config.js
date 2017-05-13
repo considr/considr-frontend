@@ -58,6 +58,18 @@ function config($stateProvider, $urlRouterProvider,$httpProvider) {
     })
     
     /*=====  End of Campigns State  ======*/
+    /*============================================
+    =            Representative State            =
+    ============================================*/
+    
+    .state('representatives', {
+        data: { },
+        url: "/representatives",        
+       templateUrl:"views/representatives/representatives.html",      
+    })
+    
+    /*=====  End of Representative State  ======*/
+    
     
     
    
