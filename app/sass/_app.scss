@@ -28,9 +28,21 @@ header,main,footer
 	   //Default
 		@include span(12);
 }
+
 main
 {
-	padding:0;
+	
+  margin-bottom:$footer-height;
+  padding:0;
+
+  section{
+    .main-section{
+      @include center-padding(15%); 
+      padding-top:30px;
+      padding-bottom:30px;
+    }
+     
+  }
 }
 
 h1
