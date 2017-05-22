@@ -1,9 +1,47 @@
-#campaigns
-{
+#campaigns {
 	@include span(12);
+
 	
 	h1{
-		margin:20px 0;
-		font-weight:bold;
+		margin: 20px 0;
+		font-weight: bold;
+	}
+	.selected-city-search-campaigns-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		margin: 20px 0;
+	}
+	.selected-city {
+		color: $sky-blue;
+		margin: 10px 0;
+		a {
+			color: $sky-blue;
+		}
+		.change-btn {}
+	}
+	.search-campaigns {
+		margin: 10px 0;
+		flex-basis: 400px;
+		input {
+			height: 40px;
+			width: 100%;
+			padding: 10px 10px;
+			box-sizing: border-box;
+			outline: none;
+		}
+	}
+	@include breakpoint($tablet) {
+		.search-campaigns {
+			flex-basis: 100%;
+		}
+	}
+	.load-more-wrap {
+		display: flex;
+		justify-content: center;
+	}
+	.load-more {
+		font-size: 22px;
 	}
 }

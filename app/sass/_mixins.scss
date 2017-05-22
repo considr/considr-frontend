@@ -1,68 +1,63 @@
 /* Vendor Prefixes */
+
 @mixin vendor-prefix($name, $value) {
-  @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
-    #{$vendor}#{$name}: #{$value};
-  }
+	@each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+		#{$vendor}#{$name}: #{$value};
+	}
 }
+
 
 /* General Mixins */
 
-@mixin center-padding($padding){
-  
-  		//default
-  		box-sizing:border-box;
-  		padding: 0 $padding;
-
-          //Phone
-  		@include breakpoint($phone) {
-  			padding-right:0.5rem;
-  			padding-left:0.5rem;
-  		    
-  		  }
-
-          //Tablet
-  		  @include breakpoint($tablet) {
-  		  	padding-right:0.5rem;
-  		    padding-left:0.5rem;  		    
-  		  }
+@mixin center-padding($padding) {
+	//default
+	box-sizing: border-box;
+	padding: 0 $padding; //Phone
+	@include breakpoint($phone) {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	} //Tablet
+	@include breakpoint($tablet) {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
 }
 
-@mixin center-all-absolute
-{
-	position:absolute;
+@mixin center-all-absolute {
+	position: absolute;
 	margin: auto;
 	right: 0;
-	left: 0;	
+	left: 0;
 	top: 0;
 	bottom: 0;
 }
-@mixin shadow
-{
-	$shadow:0px 0px 18px 0px rgba(0, 0, 0, 0.1);
-	@include vendor-prefix('box-shadow',$shadow);
+
+@mixin shadow {
+	$shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1);
+	@include vendor-prefix('box-shadow', $shadow);
 }
 
+
 /* Components */
-@mixin round-img-with-borders($borderWidth,$borderColor)
-{
+
+@mixin round-img-with-borders($borderWidth, $borderColor) {
 	/* border-radius:50%;
 	border:$borderWidth solid $borderColor; */
 }
 
-@mixin round-btn($radius,$backgroundColor,$color)
-{
-
-	border-radius:$radius;
-	border:none;	
-	outline:none;
-	background-color:$backgroundColor;
-	color:$color;
-	display:table;
-	
-	span{
-	    display: table-cell;
-	    vertical-align: middle;
-	    font-weight: bold;
+@mixin round-btn($radius, $backgroundColor, $color) {
+	border-radius: $radius;
+	border: none;
+	outline: none;
+	background-color: $backgroundColor;
+	color: $color;
+	display: table;
+	height: 35px;
+	padding: 10px;
+	cursor: pointer;
+	span {
+		display: table-cell;
+		vertical-align: middle;
+		font-weight: bold;
 	}
-	
 }

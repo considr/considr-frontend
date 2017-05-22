@@ -52,12 +52,17 @@
 
 		.ready-representative-btn
 		{
+
 			@include round-btn(8px,$green,white);
 			height: 35px;
 		    padding: 10px;
 		    float: right;
 		    padding: 10px;
 		    margin-right: 20px;
+
+			@include round-btn(8px,$pink,white);
+		    float: right;
+
 		}
 	}
 }
