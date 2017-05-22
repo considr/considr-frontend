@@ -11,6 +11,9 @@ import angular from 'angular';
 /*----------  Angular UI-Router  ----------*/
 import uiRouter from 'angular-ui-router';
 
+/*----------  OC Lazy Load  ----------*/
+import oclazyload from 'oclazyload';
+
 /*----------  UI-KIT  ----------*/
 require('uikit/dist/js/uikit.js');
 require('uikit/dist/js/uikit-icons.js');

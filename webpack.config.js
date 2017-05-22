@@ -2,90 +2,84 @@
 var webpack = require('webpack'),
 
   HtmlWebpackPlugin=require('html-webpack-plugin'),
-  path = require('path')
- 
+  path = require('path'),
+  BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   //context: PATHS.app,
   entry: {
-    app: './app/index.js',
-    //vendor: 'angular'
+    vendor: './app/core/vendor.js',
+    app: './app/index.js'
+   
   },
   output: {
    // path: PATHS.app,
-    filename: './app/dist/bundle.js'
+   // filename: './app/dist/bundle.js'
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist')
+           
   },
   
   module: {
   	loaders:[
    {
      test: /\.js$/,
-     loader: 'babel?presets[]=es2015',
+     loader: 'babel-loader?presets[]=es2015',
      exclude: /node_modules|bower_components/
    },
    {
     
       test: /\.scss$/,
-      loader: 'style!css!sass',
-      includePaths: [
-           'node_modules', 'bower_components', 'src', '.'
-         ]
+      loader: 'style-loader!css-loader!sass-loader',
+      
    },
    {
-          test: /\.(gif|png|jpe?g|svg)$/i,
+          test: /\.(gif|png|jpe?g)$/i,
           loaders: [
             'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
             'image-webpack-loader'
           ]
+    },
+    {
+      test: /\.svg$/,
+      use: [
+        {
+          loader: 'file-loader'
+        },
+        {
+          loader: 'svgo-loader',
+          options: {
+            plugins: [
+              {removeTitle: true},
+              {convertColors: {shorthex: false}},
+              {convertPathData: false}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      test: /\.woff(2)?(\?[a-z0-9]+)?$/,
+      loader: "url-loader?limit=10000&mimetype=application/font-woff"
+    }, {
+      test: /\.(ttf|eot)(\?[a-z0-9]+)?$/,
+      loader: "file-loader"
     }
    ]
   },
 
-  imageWebpackLoader: {
-    mozjpeg: {
-      quality: 100
-    },
-    pngquant:{
-      optimizationLevel: 0,
-      quality: "100",
-      speed: 4
-    },
-    svgo:{
-      plugins: [
-        {
-          removeViewBox: false
-        },
-        {
-          removeEmptyAttrs: false
-        }
-      ]
-    }
-  },
-
-  devServer: {
-     // hot: true,
-      // enable HMR on the server
-
-      contentBase:path.join(__dirname,"app"),
-      // match the output path
-
-     // publicPath: './app',
-      // match the output `publicPath`
-
-      //inline:true,
-     // open:true
-    },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
     	template:path.join(__dirname,"app/index.html")
     }),
-    /*new webpack.optimize.CommonsChunkPlugin({
-                    name: 'vendor', // Specify the common bundle's name.
-                    minChunks: function (module) {
-                                       // this assumes your vendor imports exist in the node_modules directory
-                                       return module.context && module.context.indexOf('node_modules') !== -1;
-                                    }
-                })*/
+    new BundleAnalyzerPlugin(),
+    new webpack.optimize.CommonsChunkPlugin({
+                  name: 'vendor',
+                  minChunks: function (module) {
+                     // this assumes your vendor imports exist in the node_modules directory
+                     return module.context && module.context.indexOf('node_modules') !== -1;
+                  }
+              })
   ]
 };
