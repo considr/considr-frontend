@@ -1,4 +1,6 @@
 #home{
+	@include span(12);
+	padding:0;
 
 	.globe-background{		
 		background:url("../img/globe-dots.png");
@@ -19,7 +21,7 @@
 
 		.location-form
 		{
-			@include span(12);
+			
 			position: absolute;
 			max-width: 800px;
 			height: $header-height;
@@ -49,5 +51,60 @@
 		    }
 		}
 
+	}
+
+	.home-intro
+	{
+		h1{
+			margin-top:60px;
+			text-align:center;
+
+			.sky-blue{
+				color:$sky-blue;
+			}
+
+			.green{
+				color:$green;
+				font-weight:bold;
+				font-size:3rem;
+			}
+		}
+
+		.balloon-background{
+			//default			
+			height:250px;
+			margin:50px;
+			background:url("../img/sky.svg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
+
+	        //Phone
+			@include breakpoint($phone) {
+				
+			    
+			  }
+
+	        //Tablet
+			 @include breakpoint($tablet) {
+			  			    
+			    }
+		}
+
+		.home-steps
+		{
+			max-width: 1024px;
+		    margin: auto;
+		    
+			[class^="icon-"]
+			{
+				font-size:150px;
+			}
+
+			h4{
+				margin-top:0;
+			}
+
+		}
 	}
 }

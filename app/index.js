@@ -1,9 +1,6 @@
 'use strict';
 /********* JS Files ***********/
 
-/* Library Files */
-require('./core/vendor.js');
-
 /* Application Main Files */
 require('./app.js');
 
