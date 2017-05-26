@@ -1,27 +1,20 @@
 <section id="campaigns">
-
-
-
     <div class="main-section">
         <h1>Trending Campaigns</h1>
         <div class="selected-city-search-campaigns-wrap">
             <div class="selected-city">
-                <span class="icon-circle-location"></span> <a>Berlin - Germany</a>
-                <span>Berlin - Germany</a>
+                <span class="icon-circle-location"></span>
+                <span>{{currentCountry}} - Germany</a>
                 <span>
                     (<a class="change-btn">change</a>)
                 </span>
             </div>
             <div class="search-campaigns">
-                <input type="text" placeholder="Search compaigns" />
+                <input type="text" placeholder="Search campaigns" />
             </div>
         </div>
         <div class="campaigns-list">
-            <campaign></campaign>
-            <campaign></campaign>
-            <campaign></campaign>
-            <campaign></campaign>
-            <campaign></campaign>
+            <campaign ng-repeat="campaign in campaigns" campaign="campaign"></campaign>
         </div>
         <div class="load-more-wrap">
             <div class="load-more">

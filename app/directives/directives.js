@@ -22,15 +22,5 @@ angular
             // controller: ['$scope', '$filter', function ($scope, $filter) {
             // Your behaviour goes here :)
         }
-    })
-
-    .component('campaign', {
-        templateUrl: '../views/campaigns/campaign/campaign.html',
-        controller: function ($scope) {
-            $scope.isMored = false;
-
-            $scope.toggleReadMore = function () {
-                $scope.isMored = !$scope.isMored;
-            }
-        },
     });
+    
