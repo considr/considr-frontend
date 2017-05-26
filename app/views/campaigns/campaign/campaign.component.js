@@ -1,7 +1,7 @@
 angular
     .module('consider-me')
     .component('campaign', {
-        templateUrl: 'views/campaigns/campaign/campaign.html',
+        templateUrl: 'views/campaigns/campaign/campaign.component.html',
         controller: 'campaignCtrl',
         bindings: {
             campaign: '='
@@ -16,12 +16,3 @@ angular
         }
     });
 
-// function campaignCtrl() {
-//     this;
-//     debugger
-//     this.isMored = false;
-
-//     this.toggleReadMore = function () {
-//         this.isMored = !this.isMored;
-//     }
-// }

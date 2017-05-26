@@ -16,11 +16,15 @@
         <div class="campaigns-list">
             <campaign ng-repeat="campaign in campaigns" campaign="campaign"></campaign>
         </div>
-        <div class="load-more-wrap">
+
+        <loading-indicator loader="req"></loading-indicator>
+
+        <div class="no-more" ng-if="noMore">No More Campaigns</div>
+
+        <div class="load-more-wrap" ng-if="initReady && !noMore">
             <div class="load-more">
-                <a>Load More</a>
+                <a ng-click="getCampaigns()">Load More</a>
             </div>
         </div>
     </div>
-
 </section>

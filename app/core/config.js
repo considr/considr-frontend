@@ -7,9 +7,9 @@ angular
         LONG_DATE_TIME_FORMAT: 'dddd, MMMM D, YYYY hh:mm a',
         APP_VERSION: '1.0.0',
         ENVIRONMENTS: {
-            'dev': { name: 'Development', backendUrl: 'http://considr.me/' },
+            'dev': { name: 'Development', backendUrl: 'http://www.considr.me/' },
             'testing': { name: 'Staging & QA', backendUrl: '' },
-            'live': { name: 'Live', backendUrl: 'http://considr.me/' }
+            'live': { name: 'Live', backendUrl: 'http://www.considr.me/' }
         },
         ACTIVE_ENVIRONMENT: 'dev',
         TIMEOUT: 20000,

@@ -57,7 +57,7 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
 
         .state('campaigns', {
             data: {},
-            url: '/campaigns',
+            url: '/campaigns?location',
             templateUrl: "views/campaigns/campaigns.html",
             controller: 'campaignsCtrl',
             resolve: {
@@ -68,28 +68,24 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
                             'views/campaigns/campaign/campaign.component.js',
                             'views/campaigns/campaigns.data.js',
                             'core/config.js',
-                            'shared/services/utils/xhr/xhr.service.js'
+                            'shared/services/utils/xhr/xhr.service.js',
+                            'shared/directives/loading-indicator/loading-indicator.directive.js'
                         ]
                     });
                 }]
             }
         })
 
-        /*=====  End of Campigns State  ======*/
-        /*============================================
-        =            Representative State            =
-        ============================================*/
-
-        .state('representatives', {
+        .state('campaign-details', {
             data: {},
-            url: "/representatives",
-            templateUrl: "views/representatives/representatives.html",
+            url: "/campaigns/:id?location",
+            templateUrl: "views/campaigns/campaign-details/campaign-details.html",
             resolve: { // Any property in resolve should return a promise and is executed before the view is loaded
                 loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
                     // you can lazy load files for an existing module
                     return $ocLazyLoad.load({
-                        name: 'representatives',
-                        files: ['views/representatives/representatives.js']
+                        name: 'campaign-details',
+                        files: ['views/campaigns/campaign-details/campaign-details.ctrl.js']
                     });
 
                 }]

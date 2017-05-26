@@ -4,11 +4,7 @@ angular.module('consider-me')
 
         function getDefaultOptions() {
             return {
-                method: 'GET',
-                cache: false,
-                data: null,
-                params: null,
-                responseType: ""
+                method: 'GET'
             };
         }
 
@@ -38,14 +34,13 @@ angular.module('consider-me')
 
         xhrService.call = function (options) {
             var finalOptions = constructPayload(options);
+
             return $http(finalOptions)
-            .then(function (response) {
-                debugger
-                return accept(response.data);
-            }, function (response) {
-                debugger
-                return reject(response.data);
-            });
+                .then(function successCallback(response) {
+                    return accept(response.data);
+                }, function errorCallback(response) {
+                    return reject(response.data);
+                });
         };
 
         return xhrService;

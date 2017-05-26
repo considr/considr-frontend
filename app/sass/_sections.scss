@@ -3,6 +3,7 @@
 
 /*----------  Footer  ----------*/
 @import '../directives/footer/footer';
+@import '../shared/directives/loading-indicator/loading-indicator.directive';
 
 /*=============================
 =            Views            =
@@ -12,10 +13,11 @@
 
 /*----------  Campaigns  ----------*/
 @import '../views/campaigns/campaigns';
-@import '../views/campaigns/campaign/campaign';
+@import '../views/campaigns/campaign/campaign.component';
+@import '../views/campaigns/campaign-details/campaign-details';
 
 /*----------  Reperesentetaives  ----------*/
-@import '../views/representatives/representatives';
+// @import '../views/representatives/representatives';
 
 
 /*=====  End of Views  ======*/

@@ -1,12 +1,14 @@
 <div class="campaign">
   <div class="brief">
-    {{$ctrl.campaign.title}}
+    <a ui-sref="campaign-details({id: $ctrl.campaign.id})">
+      {{$ctrl.campaign.title}}
+    </a>
   </div>
   <div class="details my-crazy-animation" ng-if="isMored">
     {{$ctrl.campaign.description}}
   </div>
   <div class="action my-crazy-animation" ng-if="isMored">
-    <button>Make Call</button>
+    <a ui-sref="campaign-details({id: $ctrl.campaign.id})">Make Call</a>
   </div>
   <div class="content-switch-wrap">
     <div class="content-switch">

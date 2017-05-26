@@ -1,0 +1,37 @@
+	.campaign {
+		margin: 20px 0;
+		padding-bottom: 20px;
+		border-bottom: 1px $light-beige solid;
+		position: relative;
+		.brief {
+			margin: 20px 0;
+		}
+		.details {
+			color: $light-beige;
+			margin: 20px 0;
+		}
+		.action {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+			a {
+				@include round-btn(8px, $green, white);
+				width: 150px;
+				box-sizing: border-box;
+				text-decoration: none;
+				text-align: center;
+			}
+		}
+		.content-switch-wrap {
+			position: absolute;
+			position: absolute;
+			right: 0;
+			bottom: 15px;
+		}
+		.content-switch {
+			font-size: 14px;
+			a {
+				color: $sky-blue;
+			}
+		}
+	}
