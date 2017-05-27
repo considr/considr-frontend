@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../font-icons/fonts/icomoon.eot?kjkiy4');
-  src:  url('../font-icons/fonts/icomoon.eot?kjkiy4#iefix') format('embedded-opentype'),
-    url('../font-icons/fonts/icomoon.ttf?kjkiy4') format('truetype'),
-    url('../font-icons/fonts/icomoon.woff?kjkiy4') format('woff'),
-    url('../font-icons/fonts/icomoon.svg?kjkiy4#icomoon') format('svg');
+  font-family: 'considr-me';
+  src:  url('fonts/considr-me.eot?8odde0');
+  src:  url('fonts/considr-me.eot?8odde0#iefix') format('embedded-opentype'),
+    url('fonts/considr-me.ttf?8odde0') format('truetype'),
+    url('fonts/considr-me.woff?8odde0') format('woff'),
+    url('fonts/considr-me.svg?8odde0#considr-me') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'considr-me' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-location:before {
+  content: "\e910";
+}
 .icon-circle-call .path1:before {
   content: "\e901";
   color: rgb(48, 57, 71);
@@ -98,5 +101,4 @@
 }
 .icon-call:before {
   content: "\e900";
-  color: #fff;
 }

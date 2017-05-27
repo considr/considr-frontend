@@ -8,7 +8,10 @@
     {{$ctrl.campaign.description}}
   </div>
   <div class="action my-crazy-animation" ng-if="isMored">
-    <a ui-sref="campaign-details({id: $ctrl.campaign.id})">Make Call</a>
+    <a ui-sref="campaign-details({id: $ctrl.campaign.id})">
+      <i class="icon icon-call"></i>
+      Make Call
+    </a>
   </div>
   <div class="content-switch-wrap">
     <div class="content-switch">
