@@ -24,7 +24,7 @@
 			
 			position: absolute;
 			max-width: 800px;
-			height: $header-height;
+			height: $location-input-height;
 		    margin: auto;
 		    left: 0;
 		    right: 0;
@@ -33,7 +33,7 @@
 		    .location-input{
 		    	@include span(10);
 		    	@include shadow();
-		    	height: 100%;
+		    	height: $location-input-height;
 		    	padding: 20px;
 		    	box-sizing: border-box;
 		    	border: none;
@@ -43,11 +43,38 @@
 		    .submit-btn
 		    {
 		    	@include span(2);
-		    	height: 100%;
+		    	height: $location-input-height;
 		    	background:$dark-blue;
 		    	outline: none;
 		    	border: none;
 		    	color:white;
+		    	cursor:pointer;
+		    	
+		    	&:disabled
+		    	{
+                   background:$light-grey;
+		    	}
+
+		    	&:hover:not([disabled]){
+		    		background:$sky-blue;
+		    	}
+		    }
+
+		    .angucomplete-dropdown {
+		    	@include span(10);
+		    	@include shadow();
+		        position:absolute;
+		        background:white;
+		        overflow-y: auto;
+		        max-height: 200px;
+		        margin-top:75px;	
+
+		        .angucomplete-row,.angucomplete-searching
+		        {
+		        	padding:10px;
+		        	box-sizing:border-box;
+		        	cursor:pointer;
+		        }       
 		    }
 		}
 
@@ -64,7 +91,13 @@
 			}
 
 			.green{
-				color:$green;
+				color:white;
+				border-radius:100%;
+				background:$green;
+				height:75px;
+				width:75px;
+				line-height: 65px;
+				display: inline-block;				   
 				font-weight:bold;
 				font-size:3rem;
 			}

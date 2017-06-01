@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
+				"val",
+				"validateChoice"
+			],
+			[
 				"com",
 				"comm-section	Comment - Full section comment"
 			],
 			[
 				"comm",
-				"comm-subsection	Comment - Subsection comment"
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"bo",
+				"border-box"
+			],
+			[
+				"margin",
+				"margin-top"
 			],
 			[
 				"con",
@@ -142,10 +154,6 @@
 			[
 				"bann",
 				"banner-overlay"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"ma",
@@ -504,83 +512,27 @@
 				"min-height"
 			],
 			[
-				"bo",
-				"bottom"
-			],
-			[
 				"r",
 				"right"
-			],
-			[
-				"pos",
-				"position"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "views/campaigns/campaigns.html",
+			"file": "/D/work/work/wheemo-web/src/index.html",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 12720,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "core/index.scss",
+			"file": "/D/work/work/wheemo-web/src/sass/includes/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 459,
+				"buffer_size": 637,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config.js",
-			"settings":
-			{
-				"buffer_size": 1890,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/representatives/representatives.html",
-			"settings":
-			{
-				"buffer_size": 1376,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/representatives/_representatives.scss",
-			"settings":
-			{
-				"buffer_size": 757,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 905,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/_app.scss",
-			"settings":
-			{
-				"buffer_size": 795,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/campaigns/_campaigns.scss",
-			"settings":
-			{
-				"buffer_size": 81,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -643,11 +595,64 @@
 	[
 		"/D/work/work/considerMe/considr-frontend/app",
 		"/D/work/work/considerMe/considr-frontend/app/sass",
+		"/D/work/work/considerMe/considr-frontend/app/shared",
 		"/D/work/work/considerMe/considr-frontend/app/views",
-		"/D/work/work/considerMe/considr-frontend/app/views/representatives"
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaign",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaign-details",
+		"/D/work/work/considerMe/considr-frontend/app/views/home"
 	],
 	"file_history":
 	[
+		"/D/work/work/netaq-submission/README.MD",
+		"/D/work/work/wheemo-web/index.html",
+		"/D/work/work/wheemo-web/sass/components/_header.scss",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaign-details/campaign-details.ctrl.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaign-details/campaign-details.data.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaigns.data.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaign-details/campaign-details.scss",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaign-details/campaign-details.html",
+		"/D/work/work/wheemo-web/netaq/src/index.html",
+		"/D/work/work/considerMe/considr-frontend/app/views/home/home.js",
+		"/D/work/work/considerMe/considr-frontend/app/config.js",
+		"/D/work/work/considerMe/considr-frontend/app/sass/_mixins.scss",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaigns.html",
+		"/D/work/work/considerMe/considr-frontend/app/app.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaign/campaign.component.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/home/home.html",
+		"/D/work/work/considerMe/considr-frontend/app/views/home/home.scss",
+		"/D/work/work/considerMe/considr-frontend/app/core/vendor.js",
+		"/D/work/work/considerMe/considr-frontend/package.json",
+		"/D/work/work/considerMe/considr-frontend/app/sass/_libs.scss",
+		"/C/Users/Prollygeek/Desktop/netaq/src/sass/components/_footer.scss",
+		"/D/work/work/considerMe/considr-frontend/app/sass/_variables.scss",
+		"/D/work/work/wheemo-app/wheemo/android/local.properties",
+		"/D/work/work/wheemo-app/wheemo/android/app/src/main/java/com/wheemo/MainApplication.java",
+		"/D/work/work/wheemo-app/wheemo/android/app/src/main/java/com/wheemo/MainActivity.java",
+		"/D/work/work/wheemo-app/wheemo/android/settings.gradle",
+		"/D/work/work/wheemo-app/wheemo/android/gradle.properties",
+		"/D/work/work/wheemo-app/wheemo/android/build.gradle",
+		"/C/Users/Prollygeek/Desktop/F446RE-BLE_sw4stm32_nucleo_f446re/F446RE-BLE/mbed/TARGET_NUCLEO_F446RE/TARGET_STM/TARGET_STM32F4/TARGET_NUCLEO_F446RE/PinNames.h",
+		"/C/Users/Prollygeek/Desktop/btn.h",
+		"/D/work/work/considerMe/considr-frontend/webpack.config.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/home/_home.scss",
+		"/D/work/work/considerMe/considr-frontend/app/shared/services/utils/xhr/xhr.service.js",
+		"/D/work/work/considerMe/considr-frontend/app/core/config.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/campaigns.ctrl.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/representatives/representatives.js",
+		"/C/Users/Prollygeek/Desktop/test/index.html",
+		"/D/work/work/wheemo-app/BLE-Backup.cpp",
+		"/D/work/work/wheemo-app/Gesture Class.cpp",
+		"/D/work/work/considerMe/considr-frontend/app/font-icons/style.css",
+		"/D/work/work/considerMe/considr-frontend/app/img/sky.svg",
+		"/D/work/work/considerMe/considr-frontend/app/core/index.scss",
+		"/D/work/work/considerMe/considr-frontend/app/views/representatives/representatives.html",
+		"/D/work/work/considerMe/considr-frontend/app/index.js",
+		"/D/work/work/considerMe/considr-frontend/app/views/representatives/_representatives.scss",
+		"/D/work/work/considerMe/considr-frontend/app/sass/_app.scss",
+		"/D/work/work/considerMe/considr-frontend/app/views/campaigns/_campaigns.scss",
+		"/D/Youxel/ProjectTremvo/js/config.js",
+		"/D/Youxel/ProjectTremvo/views/projects/projects.js",
 		"/D/work/work/wheemo-app/wheemo/index.android.js",
 		"/D/work/work/considerMe/webpack.config.js",
 		"/D/work/work/considerMe/package.json",
@@ -726,56 +731,7 @@
 		"/C/Users/Prollygeek/Desktop/content-single-product.php",
 		"/C/Users/Prollygeek/AppData/Local/Temp/fz3temp-2/content-single-product.php",
 		"/D/work/work/wheemo-app/wheemo/app/Controller.js",
-		"/D/work/work/wheemo-app/wheemo/components/bluetooth-btn/index.js",
-		"/D/work/work/wheemo-app/wheemo/api/ble-api.js",
-		"/D/work/work/Baddel/Frontend/BikeApp/ionic.project",
-		"/D/work/work/wheemo-ws/gesture/main.cpp",
-		"/C/Users/Prollygeek/Desktop/netaq/src/sass/includes/_mixins.scss",
-		"/D/work/work/considrMe/front-end/src/styles/styles.scss",
-		"/D/work/work/considrMe/front-end/src/styles/headings.css",
-		"/D/work/work/considrMe/front-end/config/webpack.common.js",
-		"/D/work/work/considrMe/front-end/firebase.json",
-		"/D/work/work/considrMe/front-end/webpack.config.js",
-		"/D/work/work/considrMe/front-end/src/index.html",
-		"/D/work/work/considrMe/front-end/src/app/app.component.css",
-		"/D/work/work/considrMe/angular2-webpack-starter/config/webpack.dev.js",
-		"/D/work/work/considrMe/angular2-webpack-starter/webpack.config.js",
-		"/D/work/work/considrMe/angular2-webpack-starter/package.json",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-wheemo-activities/android/src/main/java/com/wheemo/activities/WheemoActivitiesModule.java",
-		"/C/Users/Prollygeek/AppData/Local/Temp/Rar$DI55.984/home.js",
-		"/C/Users/Prollygeek/AppData/Local/Temp/Rar$DI60.984/home.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-speech-recognizer/src/index.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/android/src/main/java/it/innove/Peripheral.java",
-		"/D/work/work/Baddel/Frontend/BikeApp/www/js/controller.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/react-packager/src/Bundler/Bundle.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/rn-cli.config.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/README.md",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/react-packager/src/Server/index.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/transformer.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/defaults.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native/packager/packager.sh",
-		"/D/work/work/wheemo-app/wheemo/.idea/workspace.xml",
-		"/D/work/work/wheemo-app/wheemo/.idea/modules.xml",
-		"/D/work/work/wheemo-app/wheemo/.idea/misc.xml",
-		"/D/work/work/wheemo-app/wheemo/.idea/compiler.xml",
-		"/D/work/work/wheemo-app/wheemo/.idea/copyright/profiles_settings.xml",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/BleManager.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/android/src/main/java/it/innove/BleManager.java",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-bluetooth-serial/index.js",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-ble-manager/android/src/main/java/it/innove/BleManagerPackage.java",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-wheemo-notification/android/src/main/java/com/wheemo/notification/WheemoNotificationModule.java",
-		"/D/work/work/wheemo-app/wheemo/node_modules/react-native-android-wheemo-notification/android/src/main/java/com/wheemo/notification/WheemoNotificationListener.java",
-		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/credit-card/credit-dashboard/credit-dashboard.js",
-		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/credit-card/credit-dashboard/credit-dashboard.html",
-		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/paddel-v-1.js",
-		"/D/work/work/Baddel/Frontend/User App/platforms/android/res/values/strings.xml",
-		"/D/work/work/Baddel/Frontend/User App/platforms/android/AndroidManifest.xml",
-		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/verified/verified.js",
-		"/D/work/work/Baddel/Frontend/Station App/states/baddel-v-1/out/credit-card/credit-card.js",
-		"/D/work/work/Baddel/Frontend/User App/ionic.project",
-		"/D/work/work/Baddel/Frontend/User App/package.json",
-		"/D/work/work/Baddel/Frontend/User App/platforms/android/project.properties",
-		"/D/work/work/Baddel/Frontend/User App/platforms/android/android.json"
+		"/D/work/work/wheemo-app/wheemo/components/bluetooth-btn/index.js"
 	],
 	"find":
 	{
@@ -964,171 +920,55 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "views/campaigns/campaigns.html",
+					"file": "/D/work/work/wheemo-web/src/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 12720,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1562,
+								1566
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "core/index.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1890,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1767,
-								1767
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 265.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "views/representatives/representatives.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1376,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1337,
-								1337
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "views/representatives/_representatives.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 757,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								572,
-								577
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 415.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "sass/_variables.scss",
+					"buffer": 1,
+					"file": "/D/work/work/wheemo-web/src/sass/includes/_variables.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 905,
+						"buffer_size": 637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								375,
-								369
+								98,
+								98
 							]
 						],
 						"settings":
@@ -1139,65 +979,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "sass/_app.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "views/campaigns/_campaigns.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1284,7 +1066,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 298.0,
+	"side_bar_width": 312.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

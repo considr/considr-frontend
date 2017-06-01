@@ -8,11 +8,13 @@ angular
         }
     })
 
-    .controller('campaignCtrl', function ($scope) {
+    .controller('campaignCtrl', function ($scope,$stateParams) {
         $scope.isMored = false;
 
         $scope.toggleReadMore = function () {
             $scope.isMored = !$scope.isMored;
         }
+
+        console.log($stateParams);
     });
 

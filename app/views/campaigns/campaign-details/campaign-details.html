@@ -1,8 +1,11 @@
 <section id="representative-profile">
    <div id="profile-wrap" class="main-section">
-	   	<img src="../../img/barbara-feinstein-square.jpg" />
-	   	<h2 class="representative-name">Barbara Feinstein</h3>
-	   	<h4 class="representative-number">Tel: +1 202-224-4515</h3>
+	   	<img ng-src="{{availableParliamentarians[variables.currentParliamentariansIndex].photo_main_url}}" />
+	   	<h2 class="representative-name">{{availableParliamentarians[variables.currentParliamentariansIndex].full_name}}</h3>
+	   	<h4 class="representative-number">Tel: {{availableParliamentarians[variables.currentParliamentariansIndex].office_phonenumber_main}}</h3>
+	   	<h3> </h3>
+	   	<button class="representative-call-btn positive">I called {{availableParliamentarians[variables.currentParliamentariansIndex].full_name}}</button>
+	   	<button class="representative-call-btn negative" ng-click="nextParliamentarian()">{{availableParliamentarians[variables.currentParliamentariansIndex].full_name}} was not available</button>
    </div>
    <div id="call-guide" class="main-section">
    	     <h2>What to Say</h2>
@@ -20,7 +23,7 @@
 			<span class="pink-span">[IF LEAVING A VOICEMAIL: please leave your full street address to ensure your call is tallied]</span>
 		</p>
 		
-		<button class="ready-representative-btn">Ready To Call</button>
+		
    </div>
    
     

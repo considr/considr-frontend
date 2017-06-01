@@ -37,16 +37,16 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
             data: {},
             url: "/",
             templateUrl: "views/home/home.html",
-            // resolve: {
-            //     loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
-            //         return $ocLazyLoad.load({
-            //             files: [
-            //                 'core.config.js',
-            //                 'shared/services/utils/xhr/xhr.service.js'
-            //             ]
-            //         });
-            //     }]
-            // }
+            controller:"homeCtrl",
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        files: [
+                            'views/home/home.js'
+                        ]
+                    });
+                }]
+            }
         })
 
         /*=====  End of Home State  ======*/
@@ -57,7 +57,7 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
 
         .state('campaigns', {
             data: {},
-            url: '/campaigns?location',
+            url: '/campaigns?location&name',
             templateUrl: "views/campaigns/campaigns.html",
             controller: 'campaignsCtrl',
             resolve: {
@@ -80,12 +80,16 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
             data: {},
             url: "/campaigns/:id?location",
             templateUrl: "views/campaigns/campaign-details/campaign-details.html",
+            controller:"campaignDetailsCtrl",
             resolve: { // Any property in resolve should return a promise and is executed before the view is loaded
                 loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
                     // you can lazy load files for an existing module
                     return $ocLazyLoad.load({
                         name: 'campaign-details',
-                        files: ['views/campaigns/campaign-details/campaign-details.ctrl.js']
+                        files: [
+                                  'views/campaigns/campaign-details/campaign-details.ctrl.js',
+                                  'views/campaigns/campaign-details/campaign-details.data.js',
+                            ]
                     });
 
                 }]

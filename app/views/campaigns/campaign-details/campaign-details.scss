@@ -11,8 +11,11 @@
 
 		img
 		{
-			width:200px;
-			margin:20px;
+			width: 175px;
+			height: 175px;
+			margin: 20px;
+			object-fit: cover;
+			object-position: center;
 			border-radius:100%;
 			border:6px solid $mustard;
 		}
@@ -30,6 +33,21 @@
 			font-size: 1.4rem;
 			margin: 10px;
 			margin-bottom: 30px;
+		}
+
+		.representative-call-btn
+		{
+			height: 45px;		    
+		    padding: 10px;
+		    margin-right: 20px;
+		    font-size: 16px;
+		    &.positive{
+		    	@include round-btn(8px,$green,white);
+		    }
+
+		    &.negative{
+		    	@include round-btn(8px,$pink,white);
+		    }
 		}
 	}
 
@@ -50,20 +68,7 @@
 			color:$pink;
 		}
 
-		.ready-representative-btn
-		{
-
-			@include round-btn(8px,$green,white);
-			height: 35px;
-		    padding: 10px;
-		    float: right;
-		    padding: 10px;
-		    margin-right: 20px;
-
-			@include round-btn(8px,$pink,white);
-		    float: right;
-
-		}
+		
 	}
 }
 

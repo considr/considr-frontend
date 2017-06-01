@@ -3,7 +3,7 @@ angular.module('consider-me')
 
         return {
             getCampaigns: function (countryId) {
-                var data = [
+              /*  var data = [
                     {
                         "draft": true,
                         "active": false,
@@ -53,10 +53,10 @@ angular.module('consider-me')
                         "is_federal_level": true,
                         "id": "592199677fd05606dc6d4350"
                     }
-                ];
+                ];*/
                 // return $q.when(data);
                 return xhr.call({
-                    url: 'api/Campaigns'
+                    url: 'api/Constituencies/listOfCampaignsFromConstituencyCode?constituency_code=019'
                 });
             },
         };

@@ -2,11 +2,23 @@
 	<div class="globe-background">
 
 		<form class="location-form">
-			<input class="location-input" type="text" name="location" placeholder="Enter your location (e.g. Berlin)">
-			<button class="submit-btn" type="submit">submit</button>
+		    <div class="autocomplete-wrap">
+			<angucomplete-alt id="location"
+			              placeholder="Enter your location (e.g. Berlin)"
+			              pause="100"
+			              selected-object="validateInput"
+			              local-data="countries"
+			              input-changed="validateInput"
+			              search-fields="constituency_name"
+			              title-field="constituency_name"
+			              minlength="1"
+			              input-class="location-input"/>
+			 </div>
+			 <button class="submit-btn" type="submit" ng-disabled="!variables.canSubmit" ng-click="submitLocation()">submit</button>						
 		</form>
-	</div>	
 
+	</div>	
+	
 	<div class="home-intro">
 	  <h1>Reach your <span class="sky-blue">Parliamentarian</span> in <span class="green">3</span> simple steps </h1>
 	  <div class="balloon-background">

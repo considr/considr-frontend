@@ -14,6 +14,9 @@ import uiRouter from 'angular-ui-router';
 /*----------  OC Lazy Load  ----------*/
 import oclazyload from 'oclazyload';
 
+/*----------  AutoComplete  ----------*/
+import angucompleteAlt from 'angucomplete-alt';
+
 /*----------  UI-KIT  ----------*/
 require('uikit/dist/js/uikit.js');
 require('uikit/dist/js/uikit-icons.js');
