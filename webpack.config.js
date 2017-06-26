@@ -1,6 +1,6 @@
 'use strict';
 var webpack = require('webpack'),
-
+  ngAnnotatePlugin = require('ng-annotate-webpack-plugin'),
   HtmlWebpackPlugin=require('html-webpack-plugin'),
   path = require('path'),
   BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
@@ -21,7 +21,12 @@ module.exports = {
   },
   
   module: {
+    
   	loaders:[
+    {
+      test: /src.*\.js$/,
+      use: [{ loader: 'ng-annotate-loader' }],
+    },
    {
      test: /\.js$/,
      loader: 'babel-loader?presets[]=es2015',
@@ -80,6 +85,14 @@ module.exports = {
                      // this assumes your vendor imports exist in the node_modules directory
                      return module.context && module.context.indexOf('node_modules') !== -1;
                   }
-              })
+              }),
+    new ngAnnotatePlugin({
+      add: true,
+      // other ng-annotate options here 
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+     minimize: true,
+     compress: true
+    })
   ]
 };

@@ -4,14 +4,22 @@
         <div class="selected-city-search-campaigns-wrap">
             <div class="selected-city">
                 <span class="icon icon-location"></span>
-                <span>{{currentCountry}} - Germany</a>
+                <span>{{currentCountry.name}} - Germany</a>    
                 <span>
-                    (<a class="change-btn">change</a>)
-                </span>
+                    (<a class="change-btn" ng-click="showSelection()">change</a>)
+                </span>        
+                <select class="reigon-selection" 
+                ng-if="isSelectionShown"
+                ng-model="data.model"
+                ng-change="updateReigon(data.model)"
+                ng-options="country.constituency_name for country in countries"
+                >   
+                    <option value="">{{currentCountry.name}}</option>            
+                </select>
             </div>
-            <div class="search-campaigns">
+            <!--<div class="search-campaigns">
                 <input type="text" placeholder="Search campaigns" />
-            </div>
+            </div>-->
         </div>
         <div class="campaigns-list">
             <campaign ng-repeat="campaign in campaigns" campaign="campaign"></campaign>

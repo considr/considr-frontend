@@ -1,11 +1,15 @@
 <section id="representative-profile">
    <div id="profile-wrap" class="main-section">
 	   	<img ng-src="{{availableParliamentarians[variables.currentParliamentariansIndex].photo_main_url}}" />
+		  
+
 	   	<h2 class="representative-name">{{availableParliamentarians[variables.currentParliamentariansIndex].full_name}}</h3>
 	   	<h4 class="representative-number">Tel: {{availableParliamentarians[variables.currentParliamentariansIndex].office_phonenumber_main}}</h3>
-	   	<h3> </h3>
+	    <hr />
+		<h3 class="feedback">Give us feedback</h3>
 	   	<button class="representative-call-btn positive">I called {{availableParliamentarians[variables.currentParliamentariansIndex].full_name}}</button>
 	   	<button class="representative-call-btn negative" ng-click="nextParliamentarian()">{{availableParliamentarians[variables.currentParliamentariansIndex].full_name}} was not available</button>
+
    </div>
    <div id="call-guide" class="main-section">
    	     <h2>What to Say</h2>

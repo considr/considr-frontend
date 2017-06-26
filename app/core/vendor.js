@@ -18,8 +18,8 @@ import oclazyload from 'oclazyload';
 import angucompleteAlt from 'angucomplete-alt';
 
 /*----------  UI-KIT  ----------*/
-require('uikit/dist/js/uikit.js');
-require('uikit/dist/js/uikit-icons.js');
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
 
 
 /*=====  End of Libraries  ======*/

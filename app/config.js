@@ -6,6 +6,26 @@
 angular
     .module('consider-me')
     .config(config)
+    .constant('config', {
+        DATE_FORMAT: 'MMMM D, YYYY',
+        DATE_TIME_FORMAT: 'MMMM D, YYYY hh:mm a',
+        LONG_DATE_FORMAT: 'dddd, MMMM D, YYYY',
+        LONG_DATE_TIME_FORMAT: 'dddd, MMMM D, YYYY hh:mm a',
+        APP_VERSION: '1.0.0',
+        ENVIRONMENTS: {
+            'dev': { name: 'Development', backendUrl: 'http://www.considr.me/' },
+            'testing': { name: 'Staging & QA', backendUrl: '' },
+            'live': { name: 'Live', backendUrl: 'http://www.considr.me/' }
+        },
+        ACTIVE_ENVIRONMENT: 'dev',
+        TIMEOUT: 20000,
+        GET_BACKEND_URL: function () {
+            return this.ENVIRONMENTS[this.ACTIVE_ENVIRONMENT].backendUrl;
+        },
+        IS_DEV: function(){
+            return this.ACTIVE_ENVIRONMENT === 'dev';
+        }
+    });
 
 function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpProvider) {
 
@@ -24,7 +44,18 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
 
             data: {},
             url: "",
-            abstract: true,
+            abstract:true ,    
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'index',
+                        files: [
+                            'views/index/index.js',                                                    
+                        ]
+                    });
+                }]
+            }        
+           
         })
 
         /*=====  End of Abstract Main State  ======*/
@@ -41,8 +72,11 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
             resolve: {
                 loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
                     return $ocLazyLoad.load({
+                        name: 'home',
                         files: [
-                            'views/home/home.js'
+               
+                            'views/home/home.js',
+                                                    
                         ]
                     });
                 }]
@@ -66,10 +100,8 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
                         files: [
                             'views/campaigns/campaigns.ctrl.js',
                             'views/campaigns/campaign/campaign.component.js',
-                            'views/campaigns/campaigns.data.js',
-                            'core/config.js',
-                            'shared/services/utils/xhr/xhr.service.js',
-                            'shared/directives/loading-indicator/loading-indicator.directive.js'
+                            'views/campaigns/campaigns.data.js',                           
+                            
                         ]
                     });
                 }]

@@ -5,7 +5,7 @@
 
 angular
     .module('consider-me')
-    .controller('homeCtrl', function ($scope,$state, $stateParams,$http) {
+    .controller('homeCtrl', function ($rootScope,$scope,$state, $stateParams,$http,getRegions) {
 
 $scope.countries=[];
 
@@ -27,15 +27,10 @@ getConstituencyList();
 =================================*/
 
 function getConstituencyList(){
-  $http.get('../views/home/constituency_list.json').then(function(data) {
-
-    //Log Constituency List
-     console.log("constituency_list",data);
-
-     //Set Countries List
-     $scope.countries=data.data;
-
-  });  
+    getRegions.then(function (data) {
+        console.log(data)
+        $scope.countries = data;
+    })
 }
 
 function validateMatchLength(match)
