@@ -110,7 +110,7 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
 
         .state('campaign-details', {
             data: {},
-            url: "/campaigns/:id?location",
+            url: "/campaigns/:id?location&name",
             templateUrl: "views/campaigns/campaign-details/campaign-details.html",
             controller:"campaignDetailsCtrl",
             resolve: { // Any property in resolve should return a promise and is executed before the view is loaded
@@ -125,7 +125,8 @@ function config($stateProvider, $urlRouterProvider, $sceDelegateProvider, $httpP
                     });
 
                 }]
-            }
+            },
+          
         })
 
     /*=====  End of Representative State  ======*/

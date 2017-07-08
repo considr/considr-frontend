@@ -1,0 +1,141 @@
+@import "variables";
+
+@font-face {
+  font-family: 'considr-me';
+  src:  url('#{$icomoon-font-path}/considr-me.eot?8odde0');
+  src:  url('#{$icomoon-font-path}/considr-me.eot?8odde0#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/considr-me.ttf?8odde0') format('truetype'),
+    url('#{$icomoon-font-path}/considr-me.woff?8odde0') format('woff'),
+    url('#{$icomoon-font-path}/considr-me.svg?8odde0#considr-me') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'considr-me' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location {
+  &:before {
+    content: $icon-location;
+  }
+}
+.icon-circle-call .path1 {
+  &:before {
+    content: $icon-circle-call-path1;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-call .path2 {
+  &:before {
+    content: $icon-circle-call-path2;  
+    margin-left: -1em;  
+    color: rgb(57, 181, 74);
+  }
+}
+.icon-circle-call .path3 {
+  &:before {
+    content: $icon-circle-call-path3;  
+    margin-left: -1em;  
+    color: rgb(242, 242, 242);
+  }
+}
+.icon-circle-call .path4 {
+  &:before {
+    content: $icon-circle-call-path4;  
+    margin-left: -1em;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-location .path1 {
+  &:before {
+    content: $icon-circle-location-path1;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-location .path2 {
+  &:before {
+    content: $icon-circle-location-path2;  
+    margin-left: -1em;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-location .path3 {
+  &:before {
+    content: $icon-circle-location-path3;  
+    margin-left: -1em;  
+    color: rgb(57, 181, 74);
+  }
+}
+.icon-circle-location .path4 {
+  &:before {
+    content: $icon-circle-location-path4;  
+    margin-left: -1em;  
+    color: rgb(242, 242, 242);
+  }
+}
+.icon-circle-representative .path1 {
+  &:before {
+    content: $icon-circle-representative-path1;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-representative .path2 {
+  &:before {
+    content: $icon-circle-representative-path2;  
+    margin-left: -1em;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-representative .path3 {
+  &:before {
+    content: $icon-circle-representative-path3;  
+    margin-left: -1em;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-representative .path4 {
+  &:before {
+    content: $icon-circle-representative-path4;  
+    margin-left: -1em;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-representative .path5 {
+  &:before {
+    content: $icon-circle-representative-path5;  
+    margin-left: -1em;  
+    color: rgb(48, 57, 71);
+  }
+}
+.icon-circle-representative .path6 {
+  &:before {
+    content: $icon-circle-representative-path6;  
+    margin-left: -1em;  
+    color: rgb(57, 181, 74);
+  }
+}
+.icon-circle-representative .path7 {
+  &:before {
+    content: $icon-circle-representative-path7;  
+    margin-left: -1em;  
+    color: rgb(242, 242, 242);
+  }
+}
+.icon-call {
+  &:before {
+    content: $icon-call;
+  }
+}
+

@@ -4,7 +4,8 @@
   "description": "considrMe Angular 7 webpack starter",
   "main": "./app/index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js --inline --hot --watch --progress --profile --content-base app/ && start http://localhost:8080/"
+    "start": "webpack-dev-server --config webpack.config.js --inline --hot --watch --progress --profile --content-base app/ && start http://localhost:8080/",
+    "build": "webpack -p"
   },
   "author": "Mohammed Taher<mt@rollygeek.com>",
   "license": "ISC",

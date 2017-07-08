@@ -18,7 +18,7 @@ import oclazyload from 'oclazyload';
 import angucompleteAlt from 'angucomplete-alt';
 
 /*----------  UI-KIT  ----------*/
-import UIkit from 'uikit';
+import UIkit from 'uikit/dist/js/uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
 
 

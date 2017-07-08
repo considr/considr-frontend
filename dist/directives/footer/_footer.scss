@@ -1,0 +1,54 @@
+footer
+{
+	@include center-padding(15%);	
+	max-height:$footer-height;
+	position:absolute;
+	bottom:0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background:$dark-blue;
+	text-align:center;
+
+	.logo-watermark
+	{
+		height:25px;
+		width:auto;
+		background:url('../img/cm-logo-white.png');
+		background-repeat:no-repeat;
+		background-position:left center;
+		background-size:contain;
+	}
+
+	nav
+	{
+		
+		padding:20px;
+		box-sizing:border-box;
+
+		a{
+			color:$light-beige;
+			margin:15px;
+
+			&:hover{
+				text-decoration:none;	
+				color:$sky-blue;
+			}
+					
+		}
+
+		a+a{
+			&::before
+			{
+				content:"|";
+				margin-right: 35px;
+				color:$light-beige;
+			}
+		}
+		
+	}
+
+	small{
+		display:block;
+		margin:15px;
+	}
+}
